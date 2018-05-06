@@ -1,0 +1,45 @@
+﻿body {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 50px;
+}
+
+.navbar {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.mainContent {
+    height: 94.5vh;
+    width: 100%;
+    background-color: #E6E6E6;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+#welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}

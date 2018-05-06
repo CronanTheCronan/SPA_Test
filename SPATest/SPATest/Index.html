@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="draftApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Draft Party</title>
+    <base href="/" />
+    <link href="Content/myStyles.css" rel="stylesheet" />
+    <script src="Scripts/Vendor/angular.min.js"></script>
+    <script src="Scripts/Vendor/angular-route.min.js"></script>
+    <script src="Scripts/script.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <a class="active navbar" href="#home">Home</a>
+        </div>
+        <div>
+            <a class="navbar" href="#about">About</a>
+            <a class="navbar" href="#contact">Contact</a>
+            <a class="navbar" href="#signup">Sign Up</a>
+            <a class="navbar" href="#login">Login</a>
+        </div>
+    </nav>
+    <section>
+        <div class="mainContent">
+            <ng-view></ng-view>
+        </div>
+    </section>
+
+</body>
+</html>
